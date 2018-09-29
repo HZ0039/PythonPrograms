@@ -6,6 +6,6 @@ cursor = db.cursor()
 cursor.execute("select * from test")
 data=cursor.fetchall()
 
-print(data)
+print(data*3)
 
 db.close()
